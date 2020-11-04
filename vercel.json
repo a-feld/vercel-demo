@@ -2,5 +2,6 @@
   "routes": [
     { "src": "/" , "dest": "/api/hello.py"},
     { "src": "/(.*)", "status": 404, "dest": "/other-404.html" }
-  ]
+  ],
+  "regions": ["iad1"]
 }
